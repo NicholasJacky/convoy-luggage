@@ -1,0 +1,8 @@
+# Big CAD files go through Git LFS so the repo stays small
+*.f3d   filter=lfs diff=lfs merge=lfs -text
+*.f3z   filter=lfs diff=lfs merge=lfs -text
+*.step  filter=lfs diff=lfs merge=lfs -text
+*.stp   filter=lfs diff=lfs merge=lfs -text
+*.stl   filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.3mf   filter=lfs diff=lfs merge=lfs -text

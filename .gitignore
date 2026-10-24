@@ -1,0 +1,8 @@
+# Blender backups
+*.blend1
+*.blend2
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
